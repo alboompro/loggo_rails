@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Added in our environment file
+
+```ruby
+Rails.application.configure do
+  config.loggo_rails.enabled = true
+  # config.loggo_rails.api_url = 'http://localhost:3579'
+  config.loggo_rails.token = 'token'
+  config.loggo_rails.app_name = 'application-name'
+end
+```
 
 ## Development
 
